@@ -1,0 +1,42 @@
+
+person= "naveen"
+print (person) # store message in variable and print it
+
+name = 'naveen'
+print(name)
+name='bhavya'
+print(name) # do the same as above but change variable name
+
+
+name = "naveen"
+print ("Hi naveen, good morning") # printing name from message 
+
+
+quote='virgil once said “Fortune favors the bold.”'
+print(quote)  # print favourite quote 
+
+famous_person = "devansh"
+message = "good morning"
+print((famous_person)+ " said "+ (message))  # famousperson who you admire and add message then print it 
+
+
+name = 'devender'
+print(name.upper()) # to print the name in upper cases
+
+name = 'devender'
+print(name.title()) # to print names in title cases 
+
+name = 'devender'
+print(name.lower())  #to print name in lower cases
+
+
+print (5 + 3)  # adding number for result 8
+print (2*4) # multiplying for result 8
+print (70-62) # substracting for result 8
+print (40/5)  # division for result 8
+
+name = "   naveen    "  
+
+print(name.rstrip())  # stripping space on right side
+print(name.lstrip()) # stripping space on leftside
+print(name.strip())   # stripping space between both sides
