@@ -1,0 +1,85 @@
+friends_names=["vishnu","vaishu","jyoti","harish"] # create new list and print all your friedns names individually
+
+print(friends_names[0])
+print(friends_names[1])
+print(friends_names[2])
+print(friends_names[3])
+
+
+print("Hi buddy!",friends_names[0]) # personlized maessage for all friends
+print("Hi buddy!",friends_names[1])
+print("Hi buddy!",friends_names[2])
+print("Hi buddy!",friends_names[3])
+
+cars=["bmw","benz","range rover","audi"] # create a new list and print message for transport with it's name
+
+print("i would like to drive", cars[0])
+print("i would like to drive", cars[1])
+print("i would like to drive", cars[2])
+print("i would like to drive", cars[-1])
+
+dinner_list=["vaishu","jyoti","vishnu","harish"] # created new dinner list and ask them with a custom message
+
+print("please have biriyani", dinner_list[0])
+print("please have biriyani", dinner_list[1])
+print("please have biriyani", dinner_list[-2])
+print("please have biriyani", dinner_list[-1])
+
+print("please take care and will miss you", dinner_list[-1])
+
+dinner_list.pop() #we are removing the person who can't make for dinner
+
+print(dinner_list)
+
+
+new_dinner_list= ["vaishu","jyoti","vishnu","sushanth"] # updated dinner list
+print("please make for dinner!", new_dinner_list[0])
+print("please make for dinner!", new_dinner_list[1])
+print("please make for dinner!", new_dinner_list[2])
+print("please make for dinner!", new_dinner_list[3])
+
+
+print(new_dinner_list)
+new_dinner_list.append("Devendra") #adding new person of last of list
+
+
+print(new_dinner_list)
+
+#new_dinner_list.insert("bhavya")  # using insert function 
+
+list_=["n","k","j","a"] # removing names or numbers by usin pop function
+list_.pop()
+print(list_)
+
+list_.pop(1)
+print(list_)
+
+del list_[0] # deleting on list by using their element number and we can only delete one element at once
+print(list_)
+
+
+del list_[0]
+print(list_)
+
+
+Dinner=[1,2,3,4,5]
+
+Dinner.pop()
+print(Dinner)
+
+Dinner.pop(-1)
+
+print(Dinner)
+
+Dinner.pop(-3)
+
+print(Dinner)
+
+print ("you guy's are still invited 2,3")
+
+del Dinner[0]
+print(Dinner)
+
+del Dinner[0]
+
+print(Dinner) # making empty list 
