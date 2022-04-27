@@ -1,0 +1,27 @@
+info={"naveen","kumar","kurapati" } # printing names from dictionary after saving them
+
+print(info)
+
+
+
+number={"jyoti":1, "naveen":10, "vyshu":7, "reddy":8, "manideep":9}
+
+# saving 5 people and their values of numbers and printing numbers using keys as their names
+
+print(number)
+
+print(number["jyoti"])
+
+print(number["vyshu"])
+
+print(number["reddy"])
+
+print(number["manideep"])
+
+print(number["naveen"])
+
+
+
+glossary={"strings":"anything inside quotes", "dictinory":2, "loops":3 , "decimal":0.5 , "range":4}
+# create glossary with 5 words in a set
+print (glossary)
